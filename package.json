@@ -1,0 +1,39 @@
+{
+  "name": "vue2-leaflet-iiif",
+  "version": "1.0.0",
+  "description": "Wrapper for using the Leaflet-IIIF plugin with the vue2-leaflet package.",
+  "main": "./dist/Vue2LeafletIIIF.common.js",
+  "scripts": {
+    "build": "vue-cli-service build --mode production --target lib --name Vue2LeafletIIIF src/Vue2LeafletIIIF.vue",
+    "serve": "vue-cli-service serve example/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/webmapper/vue2-leaflet-iiif.git"
+  },
+  "keywords": [
+    "vue2",
+    "leaflet",
+    "iiif"
+  ],
+  "author": "Edward Mac Gillavry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webmapper/vue2-leaflet-iiif/issues"
+  },
+  "homepage": "https://github.com/webmapper/vue2-leaflet-iiif#readme",
+  "devDependencies": {
+    "@types/leaflet": "^1.5.17",
+    "@vue/cli": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "@vue/cli-service-global": "^4.4.6",
+    "leaflet": "^1.6.0",
+    "vue-template-compiler": "^2.6.11",
+    "vue2-leaflet": "^2.5.2",
+    "webpack-node-externals": "^2.5.0"
+  },
+  "dependencies": {
+    "leaflet-iiif": "^3.0.0"
+  }
+}
